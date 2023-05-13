@@ -53,11 +53,14 @@ h1{
 #status{
     grid-column: 2;
     grid-row: 1;
-    font-size: 50px;
+    font-size: 5px;
+    font-family: 'Shojumaru', cursive;
     justify-self: center;
     
 }
-
+h2{
+    font-size: 20px;
+}
 #recommencer{
     grid-column: 2;
     grid-row: 2;
@@ -70,4 +73,58 @@ h1{
     grid-row: 1/3;
     align-self: end;
     
+}
+
+#reponseOrdi0{
+    width: 250px;
+    height: 250px;
+    top:230px; left: 75%;
+    
+}
+
+#reponseOrdi1{
+    width: 250px;
+    height: 250px;
+    top:230px; left: 75%;
+}
+
+#reponseOrdi2{
+    width: 250px;
+    height: 250px;
+    top:230px; left: 75%;
+}
+#texteOrdi{
+    top:175px; left: 75%;
+    font-family: 'Shojumaru', cursive;
+}
+.reponse{
+    visibility: hidden;
+    position: absolute;
+}
+#secReponseOrdi{
+    width: 50%;
+    
+}
+
+#reponseJoueur0{
+    width: 250px;
+    height: 250px;
+    top:230px; left: 10%;
+    
+}
+
+#reponseJoueur1{
+    width: 250px;
+    height: 250px;
+    top:230px; left: 10%;
+}
+
+#reponseJoueur2{
+    width: 250px;
+    height: 250px;
+    top:230px; left: 10%;
+}
+#texteJoueur{
+    top:175px; left: 15%;
+    font-family: 'Shojumaru', cursive;
 }
