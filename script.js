@@ -21,6 +21,7 @@ function gestionClickCase(){
     
     choixJoueur=indexCase
     tourOrdi()
+    
     verifGagne()
     document.getElementById('papier').style.visibility='hidden';
     document.getElementById('Pierre').style.visibility='hidden';
@@ -78,15 +79,16 @@ function recommencer(){
 
 function verifGagne(){
     jeuActif=false
+    
+    
     if(choixJoueur==choixOrdi){
         statut.innerHTML=egalite()
-        
+        return
     }
     switch (choixJoueur){
         case 0:
             if(choixOrdi==1){
                 statut.innerHTML=gagne()
-                
                 return
             }
             statut.innerHTML=perdu()
